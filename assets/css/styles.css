@@ -1,0 +1,251 @@
+body {
+	background-color: #F2E9E0;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 16px;
+}
+
+h1, h2 , h3, h4, h5, h6 {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+h2 {
+	font-size: 40px;
+}
+
+header {
+	background-color: white;
+	border-bottom: 1px solid #4F4F4F;
+	height: 5rem;
+	
+}
+
+nav {
+	padding: 2rem 1rem 0rem 0px;
+}
+
+nav ul {
+	float: right;	
+}
+
+nav ul li {
+	display: inline;
+	padding-right: 4rem;
+	
+}
+
+nav ul li a{
+	text-decoration: none;
+	text-transform: uppercase;
+	
+}
+
+nav ul li a:visited{
+	color: #4F4F4F;
+}
+
+img {
+	max-width: 100%; height: auto; 
+}
+
+section a{
+	font-size: 1.00em;
+	padding: 5% 30%;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background-color: #F2E9E0;
+	text-decoration: none;
+	border: 1px solid #4F4F4F;
+}
+
+section a:visited {
+	color: #4F4F4F;
+}
+
+section a:hover{
+	color: whitesmoke;
+	background-color: #4F4F4F; 
+}
+
+section h6 {
+	font-size: 0.813em;
+	margin-top: 10%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+footer {
+	padding: 1.5% 0;
+	border-top: 1px solid #4F4F4F;
+}
+
+footer p {
+	margin-left: 5%;
+	font-size: 0.7em;
+	color: #848484;
+}
+
+
+.hero {
+/*	color: white;*/
+	text-align: right;
+	background-image: url(../images/churchill-house-31.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 60rem;
+	filter: brightness(80%);	
+}
+
+.herotext {
+	padding-top: 50rem;
+	color: #F2E9E0;
+	letter-spacing: 2px;
+	filter: brightness(100%);
+}
+
+.wrapper {
+	width: 75vw;
+	margin: 0 auto;
+}
+
+.textonlysect {
+	text-align: center;
+	margin: 5rem 0px 5rem 0px;
+}
+
+.textonlysect h3 {
+	font-size: 30px;
+}
+
+.textonlysect h4 {
+	font-size: 20px;
+}
+
+.leftimgsect {
+	background-color: #093048;
+	overflow: auto;
+}
+
+.leftimgsecttext {
+	width: 20rem;
+	float: right;
+	margin-bottom: 4%;
+	padding-top: 4%;
+	color: whitesmoke;
+}
+
+.leftimgsecttext h3 {
+	font-size: 1.875em;
+	padding-bottom: 5%;
+}
+
+.leftimgsecttext p {
+	font-size: 1.250em;
+	margin-bottom: 10%;
+}
+
+.leftimgsect img {
+		margin-top: 4%;
+		padding-bottom: 5%;
+		float:left; 
+	}
+
+.rightimgsect {
+	overflow: auto;
+}
+
+.rightimgsecttext {
+	width: 20rem;
+	float: left;
+	margin-bottom: 5%;
+	padding-top: 4%;
+	color: #4F4F4F;
+}
+
+.rightimgsecttext h3 {
+	font-size: 1.875em;
+	padding-bottom: 5%;
+}
+
+.rightimgsecttext p {
+	font-size: 1.250em;
+	margin-bottom: 10%;
+}
+
+.rightimgsect img {
+	margin-top: 4%;
+	padding-bottom: 5%;
+	float:right; 
+}
+
+#orangesect {
+	background-color:#D89720;
+}
+
+#orangesecttext {
+	color: #093048; 
+}
+
+@media screen and (min-device-width: 1400px)
+	{ 
+    .leftimgsect img {
+		width: 28rem;
+		margin-left: 9%;
+	}
+		
+	.leftimgsecttext {
+		width: 20rem;
+		margin-right: 15%;
+	}
+	
+	.rightimgsect img {
+		width: 28rem;
+		margin-right: 11%;
+	}
+		
+	.rightimgsecttext {
+		width: 20rem;
+		margin-left: 9%;
+	}
+}
+
+
+@media screen and (min-device-width: 1280px)
+		      and (max-device-width: 1399px){ 
+    .leftimgsect img {
+		width: 28rem;
+	}
+	
+	.rightimgsect img {
+		width: 28rem;
+	}
+}
+
+@media screen 
+	and (min-device-width: 1110px)
+	and (max-device-width: 1279px){ 
+    .leftimgsect img {
+		width: 22rem;
+	}
+		
+	.rightimgsect img {
+		width: 22rem;
+	}
+}
+
+@media screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 1109px) { 
+    .leftimgsect img { 
+        width: 20rem; 
+    } 
+	  
+	 .rightimgsect img { 
+        width: 20rem; 
+    } 
+}
+
